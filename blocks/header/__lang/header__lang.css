@@ -1,0 +1,8 @@
+.header__lang {
+    list-style-type: none;
+    padding-right: 1em;
+  }
+  
+  .header__lang:last-child {
+    padding: 0;
+  }
