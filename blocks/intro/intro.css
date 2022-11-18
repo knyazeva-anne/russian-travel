@@ -3,4 +3,17 @@
     flex-direction: column;
     max-width: 984px;
     margin: 0 auto;
+    padding: 0 48px;
   }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .intro { 
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro { 
+    padding: 0 16px;
+  }
+}

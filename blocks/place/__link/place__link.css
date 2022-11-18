@@ -7,4 +7,10 @@
     padding-top: 12px;
     color: #ffffff;
   }
+
+  @media screen and (max-width: 320px) {
+    .place__link {
+      padding-left: 16px;
+    }
+  }
   

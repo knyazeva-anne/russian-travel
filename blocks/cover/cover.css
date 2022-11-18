@@ -1,4 +1,18 @@
 .cover {
-    padding: 92px 48px 92px;
+  display: flex;
+  justify-content: center;
+    padding: 92px 0px;
   }
-  
+
+
+  @media screen and (min-width: 321px) and (max-width: 768px) {
+    .cover { 
+      padding: 90px 0px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .cover { 
+      padding: 66px 0;
+    }
+  }

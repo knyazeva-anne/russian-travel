@@ -5,3 +5,29 @@
     margin: 0;
     gap: 18px;
   }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer__links {
+        padding-left: 48px;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 768px) {
+    .footer__links {
+        padding-left: 24px;
+    }
+  }
+
+  @media (max-width: 320px){
+    .footer__links {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      gap: 18px;
+      padding-left: 16px;
+    }  
+      .footer__links>li:not(:first-child){
+      margin-top: 32px;
+    }
+  }
