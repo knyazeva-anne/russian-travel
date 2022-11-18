@@ -10,3 +10,5 @@
 
 ### Автор работы:
 Анна Князева
+
+Ссылка на работу на [GitHub Pages](https://knyazeva-anne.github.io/russian-travel/)
